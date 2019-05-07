@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:layout_width="match_parent"
+
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="WWL"
+        android:textSize="30sp"
+
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp" />
+
+    <TextView
+
+        android:layout_width="100dp"
+
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="Locate"
+        android:textSize="30sp"
+        android:id="@+id/textView"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:layout_alignRight="@+id/wwlmap"
+        android:layout_alignEnd="@+id/wwlmap" />
+
+    <TextView
+
+        android:layout_width="100dp"
+
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="Call Super"
+        android:textSize="30sp"
+        android:id="@+id/textView2"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/wwlcall"
+        android:layout_alignStart="@+id/wwlcall" />
+    <ImageButton
+        android:id="@+id/wwlmap"
+        android:scaleType="fitXY"
+        android:maxHeight="170dp"
+        android:maxWidth="170dp"
+        android:adjustViewBounds="true"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/map"
+
+        android:layout_marginBottom="23dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/wwlcall"
+        android:scaleType="fitXY"
+        android:maxHeight="170dp"
+        android:maxWidth="170dp"
+        android:adjustViewBounds="true"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/phoneicon"
+
+        android:layout_alignBottom="@+id/wwlmap"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="11dp" />
+</RelativeLayout>

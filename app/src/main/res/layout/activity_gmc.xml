@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:layout_width="match_parent"
+
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="GMC"
+        android:textSize="30sp"
+
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp" />
+
+    <TextView
+
+        android:layout_width="100dp"
+
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="Locate"
+        android:textSize="30sp"
+        android:id="@+id/textView"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/gmcmap"
+        android:layout_alignEnd="@+id/gmcmap" />
+
+    <TextView
+
+        android:layout_width="100dp"
+
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="Call Super"
+        android:textSize="30sp"
+        android:id="@+id/textView2"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/gmccall"
+        android:layout_alignStart="@+id/gmccall" />
+    <ImageButton
+        android:id="@+id/gmcmap"
+        android:scaleType="fitXY"
+        android:maxHeight="170dp"
+        android:maxWidth="170dp"
+        android:adjustViewBounds="true"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/map"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="77dp" />
+
+    <ImageButton
+        android:id="@+id/gmccall"
+        android:scaleType="fitXY"
+        android:maxHeight="170dp"
+        android:maxWidth="170dp"
+        android:adjustViewBounds="true"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/phoneicon"
+
+        android:layout_alignTop="@+id/gmcmap"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.furofo.wheresthathouse">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="WTH"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Stevenson" />
+        <activity android:name=".HandH" />
+        <activity android:name=".PMC" />
+        <activity android:name=".GBR" />
+        <activity android:name=".WAL" />
+        <activity android:name=".WWL" />
+        <activity android:name=".LHC" />
+        <activity android:name=".RVL" />
+        <activity android:name=".MMB" />
+        <activity android:name=".WGE" />
+        <activity android:name=".ARB" />
+        <activity android:name=".FHH" />
+        <activity android:name=".CPR" />
+        <activity android:name=".HOR" />
+        <activity android:name=".ADL" />
+        <activity android:name=".BLP" />
+        <activity android:name=".SSB" />
+        <activity android:name=".CAW" />
+        <activity android:name=".TRL" />
+        <activity android:name=".GMC" />
+        <activity android:name=".GPT" />
+        <activity android:name=".GPP" />
+        <activity android:name=".MPR" />
+        <activity android:name=".RTR" />
+        <activity android:name=".HomeActivity" />
+
+    </application>
+
+</manifest>

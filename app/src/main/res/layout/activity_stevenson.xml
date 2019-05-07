@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id = "@+id/texty"
+        android:layout_width="368dp"
+
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="Click Neighboorhood"
+        android:textSize="30sp"
+
+        android:layout_marginTop="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:id="@+id/PMC_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="PMC"
+
+        android:layout_alignBaseline="@+id/WWL_button"
+        android:layout_alignBottom="@+id/WWL_button"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/WWL_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="WWL"
+
+        android:layout_marginTop="61dp"
+        android:layout_below="@+id/texty"
+        android:layout_alignLeft="@+id/texty"
+        android:layout_alignStart="@+id/texty"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp" />
+    <Button
+        android:id="@+id/CAW_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="CAW"
+
+        android:layout_alignBaseline="@+id/PMC_button"
+        android:layout_alignBottom="@+id/PMC_button"
+        android:layout_alignRight="@+id/texty"
+        android:layout_alignEnd="@+id/texty"
+        android:layout_marginRight="19dp"
+        android:layout_marginEnd="19dp" />
+    <Button
+        android:id="@+id/TRL_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="TRL"
+
+        android:layout_alignBaseline="@+id/GMC_button"
+        android:layout_alignBottom="@+id/GMC_button"
+        android:layout_alignLeft="@+id/PMC_button"
+        android:layout_alignStart="@+id/PMC_button" />
+    <Button
+        android:id="@+id/GMC_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="GMC"
+
+        android:layout_below="@+id/WWL_button"
+        android:layout_alignLeft="@+id/WWL_button"
+        android:layout_alignStart="@+id/WWL_button"
+        android:layout_marginTop="26dp" />
+
+    <Button
+        android:id="@+id/RTR_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="RTR"
+
+        android:layout_alignBaseline="@+id/TRL_button"
+        android:layout_alignBottom="@+id/TRL_button"
+        android:layout_alignLeft="@+id/CAW_button"
+        android:layout_alignStart="@+id/CAW_button" />
+
+    <Button
+        android:id="@+id/GPT_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="GPT"
+
+        android:layout_alignBaseline="@+id/MPR_button"
+        android:layout_alignBottom="@+id/MPR_button"
+        android:layout_alignLeft="@+id/RTR_button"
+        android:layout_alignStart="@+id/RTR_button" />
+
+    <Button
+        android:id="@+id/MPR_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="MPR"
+
+        android:layout_alignBaseline="@+id/GPP_button"
+        android:layout_alignBottom="@+id/GPP_button"
+        android:layout_alignLeft="@+id/TRL_button"
+        android:layout_alignStart="@+id/TRL_button" />
+
+    <Button
+        android:id="@+id/GPP_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="GPP"
+
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/GMC_button"
+        android:layout_alignLeft="@+id/GMC_button"
+        android:layout_alignStart="@+id/GMC_button" />
+
+
+</RelativeLayout>
